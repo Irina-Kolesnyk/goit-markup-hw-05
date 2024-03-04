@@ -523,10 +523,10 @@ display: flex;
 width: 453px;
 height: 80px;
 margin-left: 80px;
+gap: 24px;
 }
 
 .footer-form-title {
-
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -585,6 +585,9 @@ margin-left: 24px;
 display: flex;
 justify-content: center;
 align-items: center;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 .footer-form-button-icon {
 fill: #FFFFFF;
@@ -708,7 +711,7 @@ color: #8e8f99;
 margin-bottom: 4px;
 }
 .review-form-field-wrapper {
-margin-bottom: 8px;
+margin-bottom: 16px;
 }
 .review-form-input-wrapper {
 position: relative;
@@ -720,6 +723,7 @@ top: 50%;
 left: 16px;
 transform: translateY(-50%);
 fill: #2E2F42;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-message {
 width: 100%;
